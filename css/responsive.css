@@ -1,0 +1,179 @@
+/* Responsive CSS */
+
+/* Home Page */
+@media screen and (max-width:1367px) {
+  .navbar {
+    height: 70px;
+    font-size: 25px;
+  }
+
+  .brand-logo {
+    height: 50px;
+    margin: -30px 20px 0 0;
+  }
+
+  .navbar-right {
+    margin-top: -10px;
+  }
+
+  .anchor {
+    padding-top: 69px;
+    margin-top: -69px;
+  }
+
+  main {
+    margin-top: 70px;
+    min-height: 92vh;
+  }
+
+}
+
+@media screen and (max-width:1200px) {
+
+  .pc-services {
+    display: none;
+  }
+
+  .mobile-services {
+    display: inline;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 334px;
+  }
+
+  .left-card {
+    margin-left: 25%;
+  }
+
+  .right-card {
+    margin-right: 25%;
+  }
+
+}
+
+@media screen and (max-width:1159px) {
+  .navbar {
+    font-size: 22px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .brand-logo {
+    height: 45px;
+    margin: -30px 20px 0 0;
+  }
+
+}
+
+@media screen and (max-width:1007px) {
+  .navbar {
+    height: 60px;
+    font-size: 19px;
+  }
+
+  .brand-logo {
+    height: 35px;
+    margin: -27px 20px 0 0;
+  }
+
+  .nav>li>a {
+    padding-right: 12px;
+    padding-left: 12px;
+  }
+
+  .navbar-right {
+    margin-top: -10px;
+  }
+
+  .anchor {
+    padding-top: 59px;
+    margin-top: -59px;
+  }
+
+  main {
+    margin-top: 60px;
+    min-height: 93.5vh;
+  }
+
+}
+
+@media screen and (max-width:920px) {
+
+  .left-card {
+    margin-left: 15%;
+  }
+
+  .right-card {
+    margin-right: 15%;
+  }
+
+}
+
+@media screen and (max-width:844px) {
+  .navbar {
+    font-size: 17px;
+    padding-right: 12px;
+    padding-left: 12px;
+  }
+
+  .brand-logo {
+    height: 32px;
+    margin: -25px 20px 0 0;
+  }
+
+  .nav>li>a {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .navbar-right {
+    margin-top: -13px;
+  }
+
+  .left-card {
+    margin-left: 10%;
+  }
+
+  .right-card {
+    margin-right: 10%;
+  }
+
+}
+
+@media screen and (max-width:991px) {
+
+  .houdini {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width:767px) {
+
+  .navbar-toggle {
+    margin-top: -5px;
+  }
+
+  #bs-example-navbar-collapse-1,
+  .dropdown-menu {
+    text-align: center;
+  }
+
+  .cl-effect-1 {
+    background: #fff;
+    margin-top: 0px;
+  }
+
+  .left-card {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .right-card {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+}
